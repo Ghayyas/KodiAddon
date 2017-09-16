@@ -36,6 +36,8 @@ _handle = int(sys.argv[1])
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
 # http://cdn.emasti.pk/images/stories/movies/ind/Jab-Harry-Met-Sejal-2017.jpg
+
+
 VIDEOS = {'Indian Movies': [{'name': 'Jab Harry Met Sejal',
                        'thumb': 'http://cdn.emasti.pk/images/stories/movies/ind/Jab-Harry-Met-Sejal-2017.jpg',
                        'video': 'http://dm01.emasti.pk/ind/I-J/Jab-Harry-Met-Sejal-2017-WEBRip.mkv',

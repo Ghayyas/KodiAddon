@@ -1,0 +1,645 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_SETTING_KEYS	../resources/lib/nightcrawler/storage/access_manager.py	/^    ACCESS_SETTING_KEYS = ['access_token', 'refresh_token', 'expires_in']$/;"	kind:variable	line:8
+ADDON_CACHE_CLEAR	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_CACHE_CLEAR = 'addon.cache.clear'  # (bool)$/;"	kind:variable	line:11
+ADDON_CACHE_SIZE	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_CACHE_SIZE = 'addon.cache.size'  # (int)$/;"	kind:variable	line:12
+ADDON_ITEMS_PER_PAGE	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_ITEMS_PER_PAGE = 'addon.items.per_page'  # (int)$/;"	kind:variable	line:15
+ADDON_SEARCH_SIZE	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_SEARCH_SIZE = 'addon.search.size'  # (int)$/;"	kind:variable	line:14
+ADDON_SETUP	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_SETUP = 'addon.setup'  # (bool)$/;"	kind:variable	line:10
+ADDON_SHOW_FANART	../resources/lib/nightcrawler/core/abstract_settings.py	/^    ADDON_SHOW_FANART = 'addon.fanart.show'  # (bool)$/;"	kind:variable	line:13
+AbstractContext	../resources/lib/nightcrawler/core/abstract_context.py	/^class AbstractContext(object):$/;"	kind:class	line:9
+AbstractContextUI	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^class AbstractContextUI(object):$/;"	kind:class	line:4
+AbstractPlayer	../resources/lib/nightcrawler/core/abstract_player.py	/^class AbstractPlayer(object):$/;"	kind:class	line:4
+AbstractPlaylist	../resources/lib/nightcrawler/core/abstract_playlist.py	/^class AbstractPlaylist(object):$/;"	kind:class	line:4
+AbstractProgressDialog	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^class AbstractProgressDialog(object):$/;"	kind:class	line:4
+AbstractSettings	../resources/lib/nightcrawler/core/abstract_settings.py	/^class AbstractSettings(object):$/;"	kind:class	line:8
+AccessManager	../resources/lib/nightcrawler/storage/access_manager.py	/^class AccessManager(object):$/;"	kind:class	line:7
+CACHE_ONE_DAY	../resources/lib/nightcrawler/core/abstract_context.py	/^    CACHE_ONE_DAY = 24 * CACHE_ONE_HOUR$/;"	kind:variable	line:12
+CACHE_ONE_HOUR	../resources/lib/nightcrawler/core/abstract_context.py	/^    CACHE_ONE_HOUR = 60 * CACHE_ONE_MINUTE$/;"	kind:variable	line:11
+CACHE_ONE_MINUTE	../resources/lib/nightcrawler/core/abstract_context.py	/^    CACHE_ONE_MINUTE = 60$/;"	kind:variable	line:10
+CACHE_ONE_MONTH	../resources/lib/nightcrawler/core/abstract_context.py	/^    CACHE_ONE_MONTH = 4 * CACHE_ONE_WEEK$/;"	kind:variable	line:14
+CACHE_ONE_WEEK	../resources/lib/nightcrawler/core/abstract_context.py	/^    CACHE_ONE_WEEK = 7 * CACHE_ONE_DAY$/;"	kind:variable	line:13
+CONTENT_TYPE_ALBUMS	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_ALBUMS = 'albums'$/;"	kind:variable	line:61
+CONTENT_TYPE_ARTISTS	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_ARTISTS = 'artists'$/;"	kind:variable	line:60
+CONTENT_TYPE_EPISODES	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_EPISODES = 'episodes'$/;"	kind:variable	line:64
+CONTENT_TYPE_FILES	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_FILES = 'files'$/;"	kind:variable	line:58
+CONTENT_TYPE_MOVIES	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_MOVIES = 'movies'$/;"	kind:variable	line:62
+CONTENT_TYPE_MUSIC_VIDEOS	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_MUSIC_VIDEOS = 'musicvideos'$/;"	kind:variable	line:65
+CONTENT_TYPE_SONGS	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_SONGS = 'songs'$/;"	kind:variable	line:59
+CONTENT_TYPE_TV_SHOWS	../resources/lib/nightcrawler/core/abstract_context.py	/^    CONTENT_TYPE_TV_SHOWS = 'tvshows'$/;"	kind:variable	line:63
+Client	../resources/lib/content/client.py	/^class Client(nightcrawler.HttpClient):$/;"	kind:class	line:10
+CredentialsException	../resources/lib/nightcrawler/exception.py	/^class CredentialsException(ProviderException):$/;"	kind:class	line:16
+DEVICE_ID	../resources/lib/content/client.py	/^    DEVICE_ID = '0170c4d7-6653-46e9-9d89-4b6d0ade20c1'$/;"	kind:variable	line:12
+DEVICE_TYPE	../resources/lib/content/client.py	/^    DEVICE_TYPE = 'Android'$/;"	kind:variable	line:13
+ErrorHandler	../resources/lib/nightcrawler/http/api.py	/^class ErrorHandler(urllib2.HTTPDefaultErrorHandler):$/;"	kind:class	line:14
+FavoriteList	../resources/lib/nightcrawler/storage/favorite_list.py	/^class FavoriteList(Storage):$/;"	kind:class	line:7
+FunctionCache	../resources/lib/nightcrawler/storage/function_cache.py	/^class FunctionCache(Storage):$/;"	kind:class	line:8
+HttpClient	../resources/lib/nightcrawler/http/client.py	/^class HttpClient(object):$/;"	kind:class	line:6
+KodiContext	../resources/lib/nightcrawler/core/kodi/context.py	/^class KodiContext(AbstractContext):$/;"	kind:class	line:22
+KodiContextUI	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^class KodiContextUI(AbstractContextUI):$/;"	kind:class	line:12
+KodiPlayer	../resources/lib/nightcrawler/core/kodi/player.py	/^class KodiPlayer(AbstractPlayer):$/;"	kind:class	line:8
+KodiPlaylist	../resources/lib/nightcrawler/core/kodi/playlist.py	/^class KodiPlaylist(AbstractPlaylist):$/;"	kind:class	line:9
+KodiProgressDialog	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^class KodiProgressDialog(AbstractProgressDialog):$/;"	kind:class	line:8
+KodiProgressDialogBG	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^class KodiProgressDialogBG(AbstractProgressDialog):$/;"	kind:class	line:8
+KodiSettings	../resources/lib/nightcrawler/core/kodi/settings.py	/^class KodiSettings(AbstractSettings):$/;"	kind:class	line:6
+LOCAL_ARCHIVE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_ARCHIVE = 30105$/;"	kind:variable	line:45
+LOCAL_CONFIRM_DELETE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_CONFIRM_DELETE = 30114$/;"	kind:variable	line:33
+LOCAL_CONFIRM_REMOVE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_CONFIRM_REMOVE = 30115$/;"	kind:variable	line:34
+LOCAL_DELETE_CONTENT	../resources/lib/nightcrawler/provider.py	/^    LOCAL_DELETE_CONTENT = 30116$/;"	kind:variable	line:35
+LOCAL_FAVORITES	../resources/lib/nightcrawler/provider.py	/^    LOCAL_FAVORITES = 30100$/;"	kind:variable	line:18
+LOCAL_FAVORITES_ADD	../resources/lib/nightcrawler/provider.py	/^    LOCAL_FAVORITES_ADD = 30101$/;"	kind:variable	line:19
+LOCAL_FAVORITES_REMOVE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_FAVORITES_REMOVE = 30108$/;"	kind:variable	line:20
+LOCAL_HIGHLIGHTS	../resources/lib/nightcrawler/provider.py	/^    LOCAL_HIGHLIGHTS = 30104$/;"	kind:variable	line:44
+LOCAL_LATEST_VIDEOS	../resources/lib/nightcrawler/provider.py	/^    LOCAL_LATEST_VIDEOS = 30109$/;"	kind:variable	line:48
+LOCAL_LIBRARY	../resources/lib/nightcrawler/provider.py	/^    LOCAL_LIBRARY = 30103$/;"	kind:variable	line:43
+LOCAL_LOGIN_FAILED	../resources/lib/nightcrawler/provider.py	/^    LOCAL_LOGIN_FAILED = 30121$/;"	kind:variable	line:12
+LOCAL_LOGIN_PASSWORD	../resources/lib/nightcrawler/provider.py	/^    LOCAL_LOGIN_PASSWORD = 30002$/;"	kind:variable	line:14
+LOCAL_LOGIN_USERNAME	../resources/lib/nightcrawler/provider.py	/^    LOCAL_LOGIN_USERNAME = 30001$/;"	kind:variable	line:13
+LOCAL_NEXT_PAGE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_NEXT_PAGE = 30106$/;"	kind:variable	line:46
+LOCAL_PLEASE_WAIT	../resources/lib/nightcrawler/provider.py	/^    LOCAL_PLEASE_WAIT = 30119$/;"	kind:variable	line:16
+LOCAL_REMOVE_CONTENT	../resources/lib/nightcrawler/provider.py	/^    LOCAL_REMOVE_CONTENT = 30117$/;"	kind:variable	line:36
+LOCAL_SEARCH	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH = 30102$/;"	kind:variable	line:26
+LOCAL_SEARCH_CLEAR	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH_CLEAR = 30120$/;"	kind:variable	line:31
+LOCAL_SEARCH_NEW	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH_NEW = 30110$/;"	kind:variable	line:28
+LOCAL_SEARCH_REMOVE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH_REMOVE = 30108$/;"	kind:variable	line:30
+LOCAL_SEARCH_RENAME	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH_RENAME = 30113$/;"	kind:variable	line:29
+LOCAL_SEARCH_TITLE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SEARCH_TITLE = 30102$/;"	kind:variable	line:27
+LOCAL_SELECT_VIDEO_QUALITY	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SELECT_VIDEO_QUALITY = 30010$/;"	kind:variable	line:38
+LOCAL_SETUP_OVERRIDE_VIEW	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SETUP_OVERRIDE_VIEW = 30038$/;"	kind:variable	line:50
+LOCAL_SETUP_VIEW_DEFAULT	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SETUP_VIEW_DEFAULT = 30027$/;"	kind:variable	line:40
+LOCAL_SETUP_VIEW_VIDEOS	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SETUP_VIEW_VIDEOS = 30028$/;"	kind:variable	line:41
+LOCAL_SETUP_WIZARD_EXECUTE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_SETUP_WIZARD_EXECUTE = 30030$/;"	kind:variable	line:11
+LOCAL_WATCH_LATER	../resources/lib/nightcrawler/provider.py	/^    LOCAL_WATCH_LATER = 30107$/;"	kind:variable	line:22
+LOCAL_WATCH_LATER_ADD	../resources/lib/nightcrawler/provider.py	/^    LOCAL_WATCH_LATER_ADD = 30107$/;"	kind:variable	line:23
+LOCAL_WATCH_LATER_REMOVE	../resources/lib/nightcrawler/provider.py	/^    LOCAL_WATCH_LATER_REMOVE = 30108$/;"	kind:variable	line:24
+LOGIN_ACCESS_TOKEN	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_ACCESS_TOKEN = 'login.access_token'$/;"	kind:variable	line:31
+LOGIN_ACCESS_TOKEN_EXPIRES	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_ACCESS_TOKEN_EXPIRES = 'login.expires_in'$/;"	kind:variable	line:32
+LOGIN_HASH	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_HASH = 'login.hash'$/;"	kind:variable	line:34
+LOGIN_PASSWORD	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_PASSWORD = 'login.password'$/;"	kind:variable	line:30
+LOGIN_REFRESH_TOKEN	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_REFRESH_TOKEN = 'login.refresh_token'$/;"	kind:variable	line:33
+LOGIN_USERNAME	../resources/lib/nightcrawler/core/abstract_settings.py	/^    LOGIN_USERNAME = 'login.username'$/;"	kind:variable	line:29
+LOG_DEBUG	../resources/lib/nightcrawler/core/abstract_context.py	/^    LOG_DEBUG = 0$/;"	kind:variable	line:67
+LOG_ERROR	../resources/lib/nightcrawler/core/abstract_context.py	/^    LOG_ERROR = 3$/;"	kind:variable	line:70
+LOG_INFO	../resources/lib/nightcrawler/core/abstract_context.py	/^    LOG_INFO = 1$/;"	kind:variable	line:68
+LOG_WARNING	../resources/lib/nightcrawler/core/abstract_context.py	/^    LOG_WARNING = 2$/;"	kind:variable	line:69
+MockContext	../resources/lib/nightcrawler/core/mock/context.py	/^class MockContext(AbstractContext):$/;"	kind:class	line:14
+MockContextUI	../resources/lib/nightcrawler/core/mock/context_ui.py	/^class MockContextUI(AbstractContextUI):$/;"	kind:class	line:6
+MockProgressDialog	../resources/lib/nightcrawler/core/mock/progress_dialog.py	/^class MockProgressDialog(AbstractProgressDialog):$/;"	kind:class	line:5
+MockSettings	../resources/lib/nightcrawler/core/mock/settings.py	/^class MockSettings(AbstractSettings):$/;"	kind:class	line:4
+NoRedirectHandler	../resources/lib/nightcrawler/http/api.py	/^class NoRedirectHandler(urllib2.HTTPRedirectHandler):$/;"	kind:class	line:25
+ONE_DAY	../resources/lib/nightcrawler/storage/function_cache.py	/^    ONE_DAY = 24 * ONE_HOUR$/;"	kind:variable	line:11
+ONE_HOUR	../resources/lib/nightcrawler/storage/function_cache.py	/^    ONE_HOUR = 60 * ONE_MINUTE$/;"	kind:variable	line:10
+ONE_MINUTE	../resources/lib/nightcrawler/storage/function_cache.py	/^    ONE_MINUTE = 60$/;"	kind:variable	line:9
+ONE_MONTH	../resources/lib/nightcrawler/storage/function_cache.py	/^    ONE_MONTH = 4 * ONE_WEEK$/;"	kind:variable	line:13
+ONE_WEEK	../resources/lib/nightcrawler/storage/function_cache.py	/^    ONE_WEEK = 7 * ONE_DAY$/;"	kind:variable	line:12
+PACKAGE_ID	../resources/lib/content/client.py	/^    PACKAGE_ID = 'com.ninegag.android.tv'$/;"	kind:variable	line:11
+PATH_FAVORITES_ADD	../resources/lib/nightcrawler/provider.py	/^    PATH_FAVORITES_ADD = '\/favorites\/add\/'$/;"	kind:variable	line:59
+PATH_FAVORITES_LIST	../resources/lib/nightcrawler/provider.py	/^    PATH_FAVORITES_LIST = '\/favorites\/list\/'$/;"	kind:variable	line:60
+PATH_FAVORITES_REMOVE	../resources/lib/nightcrawler/provider.py	/^    PATH_FAVORITES_REMOVE = '\/favorites\/remove\/'$/;"	kind:variable	line:61
+PATH_SEARCH	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH = '\/search\/list\/'$/;"	kind:variable	line:52
+PATH_SEARCH_CLEAR	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH_CLEAR = '\/search\/clear\/'$/;"	kind:variable	line:55
+PATH_SEARCH_LIST	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH_LIST = '\/search\/list\/'$/;"	kind:variable	line:53
+PATH_SEARCH_QUERY	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH_QUERY = '\/search\/query\/'$/;"	kind:variable	line:54
+PATH_SEARCH_REMOVE	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH_REMOVE = '\/search\/remove\/'$/;"	kind:variable	line:57
+PATH_SEARCH_RENAME	../resources/lib/nightcrawler/provider.py	/^    PATH_SEARCH_RENAME = '\/search\/rename\/'$/;"	kind:variable	line:56
+PATH_WATCH_LATER_ADD	../resources/lib/nightcrawler/provider.py	/^    PATH_WATCH_LATER_ADD = '\/watch_later\/add\/'$/;"	kind:variable	line:63
+PATH_WATCH_LATER_LIST	../resources/lib/nightcrawler/provider.py	/^    PATH_WATCH_LATER_LIST = '\/watch_later\/list\/'$/;"	kind:variable	line:64
+PATH_WATCH_LATER_REMOVE	../resources/lib/nightcrawler/provider.py	/^    PATH_WATCH_LATER_REMOVE = '\/watch_later\/remove\/'$/;"	kind:variable	line:65
+Provider	../resources/lib/content/provider.py	/^class Provider(nightcrawler.Provider):$/;"	kind:class	line:10
+Provider	../resources/lib/nightcrawler/provider.py	/^class Provider(object):$/;"	kind:class	line:10
+ProviderException	../resources/lib/nightcrawler/exception.py	/^class ProviderException(Exception):$/;"	kind:class	line:4
+Response	../resources/lib/nightcrawler/http/api.py	/^class Response():$/;"	kind:class	line:41
+SKIN_DATA	../resources/lib/nightcrawler/core/view_manager.py	/^    SKIN_DATA = {$/;"	kind:variable	line:69
+SORT_METHOD_ALBUM	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_ALBUM = 'album'$/;"	kind:variable	line:16
+SORT_METHOD_ALBUM_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_ALBUM_IGNORE_THE = 'album_ignore_the'$/;"	kind:variable	line:17
+SORT_METHOD_ARTIST	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_ARTIST = 'artist'$/;"	kind:variable	line:18
+SORT_METHOD_ARTIST_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_ARTIST_IGNORE_THE = 'artist_ignore_the'$/;"	kind:variable	line:19
+SORT_METHOD_BIT_RATE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_BIT_RATE = 'bit_rate'$/;"	kind:variable	line:20
+SORT_METHOD_CHANNEL	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_CHANNEL = 'channel'$/;"	kind:variable	line:21
+SORT_METHOD_COUNTRY	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_COUNTRY = 'country'$/;"	kind:variable	line:22
+SORT_METHOD_DATE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_DATE = 'date'$/;"	kind:variable	line:23
+SORT_METHOD_DATE_ADDED	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_DATE_ADDED = 'date_added'$/;"	kind:variable	line:24
+SORT_METHOD_DATE_TAKEN	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_DATE_TAKEN = 'date_taken'$/;"	kind:variable	line:25
+SORT_METHOD_DRIVE_TYPE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_DRIVE_TYPE = 'drive_type'$/;"	kind:variable	line:26
+SORT_METHOD_DURATION	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_DURATION = 'duration'$/;"	kind:variable	line:27
+SORT_METHOD_EPISODE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_EPISODE = 'episode'$/;"	kind:variable	line:28
+SORT_METHOD_FILE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_FILE = 'file'$/;"	kind:variable	line:29
+SORT_METHOD_FULL_PATH	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_FULL_PATH = 'full_path'$/;"	kind:variable	line:30
+SORT_METHOD_GENRE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_GENRE = 'genre'$/;"	kind:variable	line:31
+SORT_METHOD_LABEL	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_LABEL = 'label'$/;"	kind:variable	line:32
+SORT_METHOD_LABEL_IGNORE_FOLDERS	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_LABEL_IGNORE_FOLDERS = 'label_ignore_folders'$/;"	kind:variable	line:33
+SORT_METHOD_LABEL_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_LABEL_IGNORE_THE = 'label_ignore_the'$/;"	kind:variable	line:34
+SORT_METHOD_LAST_PLAYED	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_LAST_PLAYED = 'last_played'$/;"	kind:variable	line:35
+SORT_METHOD_LISTENERS	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_LISTENERS = 'listeners'$/;"	kind:variable	line:36
+SORT_METHOD_MPAA_RATING	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_MPAA_RATING = 'mpaa_rating'$/;"	kind:variable	line:37
+SORT_METHOD_NONE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_NONE = 'none'$/;"	kind:variable	line:38
+SORT_METHOD_PLAYLIST_ORDER	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_PLAYLIST_ORDER = 'playlist_order'$/;"	kind:variable	line:40
+SORT_METHOD_PLAY_COUNT	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_PLAY_COUNT = 'play_count'$/;"	kind:variable	line:39
+SORT_METHOD_PRODUCTION_CODE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_PRODUCTION_CODE = 'production_code'$/;"	kind:variable	line:41
+SORT_METHOD_PROGRAM_COUNT	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_PROGRAM_COUNT = 'program_count'$/;"	kind:variable	line:42
+SORT_METHOD_SIZE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_SIZE = 'size'$/;"	kind:variable	line:43
+SORT_METHOD_SONG_RATING	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_SONG_RATING = 'song_rating'$/;"	kind:variable	line:44
+SORT_METHOD_STUDIO	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_STUDIO = 'studio'$/;"	kind:variable	line:45
+SORT_METHOD_STUDIO_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_STUDIO_IGNORE_THE = 'studio_ignore_the'$/;"	kind:variable	line:46
+SORT_METHOD_TITLE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_TITLE = 'title'$/;"	kind:variable	line:47
+SORT_METHOD_TITLE_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_TITLE_IGNORE_THE = 'title_ignore_the'$/;"	kind:variable	line:48
+SORT_METHOD_TRACK_NUMBER	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_TRACK_NUMBER = 'track_number'$/;"	kind:variable	line:49
+SORT_METHOD_UNSORTED	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_UNSORTED = 'unsorted'$/;"	kind:variable	line:50
+SORT_METHOD_VIDEO_RATING	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_RATING = 'video_rating'$/;"	kind:variable	line:51
+SORT_METHOD_VIDEO_RUNTIME	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_RUNTIME = 'video_runtime'$/;"	kind:variable	line:52
+SORT_METHOD_VIDEO_SORT_TITLE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_SORT_TITLE = 'video_sort_title'$/;"	kind:variable	line:53
+SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE = 'video_sort_title_ignore_the'$/;"	kind:variable	line:54
+SORT_METHOD_VIDEO_TITLE	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_TITLE = 'video_title'$/;"	kind:variable	line:55
+SORT_METHOD_VIDEO_YEAR	../resources/lib/nightcrawler/core/abstract_context.py	/^    SORT_METHOD_VIDEO_YEAR = 'video_year'$/;"	kind:variable	line:56
+SUPPORTED_CONTENT_TYPES	../resources/lib/nightcrawler/core/view_manager.py	/^    SUPPORTED_CONTENT_TYPES = ['default', 'movies', 'tvshows', 'episodes', 'musicvideos', 'songs', 'albums', 'artists']$/;"	kind:variable	line:68
+SUPPORT_ALTERNATIVE_PLAYER	../resources/lib/nightcrawler/core/abstract_settings.py	/^    SUPPORT_ALTERNATIVE_PLAYER = 'nightcrawler.support.alternative_player'  # (bool)$/;"	kind:variable	line:26
+SearchHistory	../resources/lib/nightcrawler/storage/search_history.py	/^class SearchHistory(Storage):$/;"	kind:class	line:7
+Storage	../resources/lib/nightcrawler/storage/storage.py	/^class Storage(object):$/;"	kind:class	line:17
+TestClient	../resources/lib/content/tests/test_client.py	/^class TestClient(unittest.TestCase):$/;"	kind:class	line:8
+TestProvider	../resources/lib/content/tests/test_provider.py	/^class TestProvider(unittest.TestCase):$/;"	kind:class	line:9
+VIDEO_QUALITY	../resources/lib/nightcrawler/core/abstract_settings.py	/^    VIDEO_QUALITY = 'video.quality'  # (int)$/;"	kind:variable	line:18
+VIDEO_QUALITY_ASK	../resources/lib/nightcrawler/core/abstract_settings.py	/^    VIDEO_QUALITY_ASK = 'video.quality.ask'  # (bool)$/;"	kind:variable	line:19
+VIEW_DEFAULT	../resources/lib/nightcrawler/core/abstract_settings.py	/^    VIEW_DEFAULT = 'view.override.default'  # (int)$/;"	kind:variable	line:23
+VIEW_OVERRIDE	../resources/lib/nightcrawler/core/abstract_settings.py	/^    VIEW_OVERRIDE = 'view.override'  # (bool)$/;"	kind:variable	line:22
+VIEW_X	../resources/lib/nightcrawler/core/abstract_settings.py	/^    VIEW_X = 'view.override.%s'  # (int)$/;"	kind:variable	line:24
+ViewManager	../resources/lib/nightcrawler/core/view_manager.py	/^class ViewManager(object):$/;"	kind:class	line:4
+WatchLaterList	../resources/lib/nightcrawler/storage/watch_later_list.py	/^class WatchLaterList(Storage):$/;"	kind:class	line:9
+__ALL__	../resources/lib/nightcrawler/http/__init__.py	/^__ALL__ = ['HttpClient', 'get', 'post', 'delete', 'options', 'head', 'put']$/;"	kind:variable	line:3
+__HTTP_CODE_TO_REASON__	../resources/lib/nightcrawler/http/api.py	/^__HTTP_CODE_TO_REASON__ = {200: 'OK',$/;"	kind:variable	line:60
+__RE_MATCH_ABBREVIATED__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__RE_MATCH_ABBREVIATED__ = re.compile($/;"	kind:variable	line:12
+__RE_MATCH_DATETIME__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__RE_MATCH_DATETIME__ = re.compile($/;"	kind:variable	line:8
+__RE_MATCH_DATE_ONLY__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__RE_MATCH_DATE_ONLY__ = re.compile(r'^(?P<year>[0-9]{4})[-]?(?P<month>[0-9]{2})[-]?(?P<day>[0-9]{2})$')$/;"	kind:variable	line:7
+__RE_MATCH_PERIOD__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__RE_MATCH_PERIOD__ = re.compile($/;"	kind:variable	line:10
+__RE_MATCH_TIME_ONLY__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__RE_MATCH_TIME_ONLY__ = re.compile(r'^(?P<hour>[0-9]{2})([:]?(?P<minute>[0-9]{2})([:]?(?P<second>[0-9]{2}))?)?$')$/;"	kind:variable	line:6
+__all__	../resources/lib/nightcrawler/core/kodi/__init__.py	/^__all__ = []$/;"	kind:variable	line:3
+__all__	../resources/lib/nightcrawler/core/mock/__init__.py	/^__all__ = []$/;"	kind:variable	line:3
+__author__	../addon.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/__init__.py	/^__author__ = 'braincrusher'$/;"	kind:variable	line:1
+__author__	../resources/lib/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/content/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/content/client.py	/^__author__ = 'bromix'$/;"	kind:variable	line:3
+__author__	../resources/lib/content/provider.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/content/tests/test_client.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/content/tests/test_provider.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/abstract_player.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/abstract_playlist.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/abstract_settings.py	/^__author__ = 'bromix'$/;"	kind:variable	line:3
+__author__	../resources/lib/nightcrawler/core/kodi/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/player.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/playlist.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/kodi/settings.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/mock/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/mock/context.py	/^__author__ = 'bromix'$/;"	kind:variable	line:3
+__author__	../resources/lib/nightcrawler/core/mock/context_ui.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/runner.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/core/view_manager.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/debug.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/exception.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/http/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/http/api.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/http/client.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/items.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/provider.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/storage/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/storage/access_manager.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/storage/favorite_list.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/storage/storage.py	/^__author__ = 'bromix'$/;"	kind:variable	line:3
+__author__	../resources/lib/nightcrawler/storage/watch_later_list.py	/^__author__ = 'bromix'$/;"	kind:variable	line:3
+__author__	../resources/lib/nightcrawler/utils/__init__.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/utils/nightcrawler_html.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/utils/nightcrawler_path.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/utils/nightcrawler_strings.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__author__	../resources/lib/nightcrawler/utils/nightcrawler_xml.py	/^__author__ = 'bromix'$/;"	kind:variable	line:1
+__call__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __call__(self, func):$/;"	kind:member	line:106
+__call__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __call__(self, func):$/;"	kind:member	line:36
+__call__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __call__(self, func):$/;"	kind:member	line:68
+__del__	../resources/lib/nightcrawler/storage/storage.py	/^    def __del__(self):$/;"	kind:member	line:57
+__init__	../resources/lib/content/client.py	/^    def __init__(self, access_token=''):$/;"	kind:member	line:15
+__init__	../resources/lib/content/provider.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../resources/lib/nightcrawler/core/abstract_context.py	/^    def __init__(self, path=u'\/', params=None, plugin_name=u'', plugin_id=u''):$/;"	kind:member	line:72
+__init__	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/core/abstract_player.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/core/abstract_playlist.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def __init__(self, total=100):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../resources/lib/nightcrawler/core/kodi/context.py	/^    def __init__(self, path='\/', params=None, plugin_name=u'', plugin_id=u'', override=True):$/;"	kind:member	line:23
+__init__	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def __init__(self, xbmc_addon, context):$/;"	kind:member	line:13
+__init__	../resources/lib/nightcrawler/core/kodi/player.py	/^    def __init__(self, player_type, context):$/;"	kind:member	line:9
+__init__	../resources/lib/nightcrawler/core/kodi/playlist.py	/^    def __init__(self, playlist_type, context):$/;"	kind:member	line:10
+__init__	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^    def __init__(self, heading, text):$/;"	kind:member	line:9
+__init__	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^    def __init__(self, heading, text):$/;"	kind:member	line:9
+__init__	../resources/lib/nightcrawler/core/kodi/settings.py	/^    def __init__(self, context, xbmc_addon):$/;"	kind:member	line:7
+__init__	../resources/lib/nightcrawler/core/mock/context.py	/^    def __init__(self, path=u'\/', params=None, plugin_name='MOCK Plugin', plugin_id='mock.plugin', ):$/;"	kind:member	line:15
+__init__	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def __init__(self, context):$/;"	kind:member	line:7
+__init__	../resources/lib/nightcrawler/core/mock/progress_dialog.py	/^    def __init__(self, heading, text):$/;"	kind:member	line:6
+__init__	../resources/lib/nightcrawler/core/mock/settings.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __init__(self, name, value_type, alias=None):$/;"	kind:member	line:54
+__init__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __init__(self, name, value_type, alias=None, default=None, required=False):$/;"	kind:member	line:87
+__init__	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^    def __init__(self, path):$/;"	kind:member	line:21
+__init__	../resources/lib/nightcrawler/core/view_manager.py	/^    def __init__(self, context, provider):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/exception.py	/^    def __init__(self, message):$/;"	kind:member	line:5
+__init__	../resources/lib/nightcrawler/http/api.py	/^    def __init__(self):$/;"	kind:member	line:15
+__init__	../resources/lib/nightcrawler/http/api.py	/^    def __init__(self):$/;"	kind:member	line:26
+__init__	../resources/lib/nightcrawler/http/api.py	/^    def __init__(self):$/;"	kind:member	line:42
+__init__	../resources/lib/nightcrawler/http/client.py	/^    def __init__(self, default_header=None):$/;"	kind:member	line:7
+__init__	../resources/lib/nightcrawler/provider.py	/^    def __init__(self):$/;"	kind:member	line:67
+__init__	../resources/lib/nightcrawler/storage/access_manager.py	/^    def __init__(self, settings):$/;"	kind:member	line:10
+__init__	../resources/lib/nightcrawler/storage/favorite_list.py	/^    def __init__(self, filename):$/;"	kind:member	line:8
+__init__	../resources/lib/nightcrawler/storage/function_cache.py	/^    def __init__(self, filename, max_file_size_kb=-1):$/;"	kind:member	line:15
+__init__	../resources/lib/nightcrawler/storage/search_history.py	/^    def __init__(self, filename, max_items=10):$/;"	kind:member	line:8
+__init__	../resources/lib/nightcrawler/storage/storage.py	/^    def __init__(self, filename, max_item_count=1000, max_file_size_kb=-1):$/;"	kind:member	line:18
+__init__	../resources/lib/nightcrawler/storage/watch_later_list.py	/^    def __init__(self, filename):$/;"	kind:member	line:10
+__init__.py	../resources/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/content/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/content/tests/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/core/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/core/kodi/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/core/mock/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/http/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/storage/__init__.py	1;"	kind:file	line:1
+__init__.py	../resources/lib/nightcrawler/utils/__init__.py	1;"	kind:file	line:1
+__int__	../resources/lib/nightcrawler/exception.py	/^    def __int__(self, message):$/;"	kind:member	line:17
+_access_token	../resources/lib/content/provider.py	/^        def _access_token():$/;"	kind:function	line:23
+_clear	../resources/lib/nightcrawler/storage/storage.py	/^    def _clear(self):$/;"	kind:member	line:168
+_close	../resources/lib/nightcrawler/storage/storage.py	/^    def _close(self):$/;"	kind:member	line:102
+_convert	../resources/lib/nightcrawler/core/kodi/settings.py	/^    def _convert(self, context):$/;"	kind:member	line:17
+_create_id_from_func	../resources/lib/nightcrawler/storage/function_cache.py	/^    def _create_id_from_func(self, partial_func):$/;"	kind:member	line:41
+_create_table	../resources/lib/nightcrawler/storage/storage.py	/^    def _create_table(self):$/;"	kind:member	line:131
+_decode	../resources/lib/nightcrawler/storage/storage.py	/^        def _decode(obj):$/;"	kind:function	line:207
+_do_context_menu	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^def _do_context_menu(context, kodi_item, item):$/;"	kind:function	line:104
+_do_fanart	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^def _do_fanart(context, kodi_item, item):$/;"	kind:function	line:112
+_do_info_labels	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^def _do_info_labels(context, kodi_item, item):$/;"	kind:function	line:10
+_encode	../resources/lib/nightcrawler/storage/storage.py	/^        def _encode(obj):$/;"	kind:function	line:147
+_execute	../resources/lib/nightcrawler/storage/storage.py	/^    def _execute(self, needs_commit, query, values=None):$/;"	kind:member	line:79
+_find_best_fit	../resources/lib/nightcrawler/provider.py	/^        def _find_best_fit(_video_streams):$/;"	kind:function	line:112
+_get	../resources/lib/nightcrawler/storage/storage.py	/^    def _get(self, item_id):$/;"	kind:member	line:206
+_get_access	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _get_access(self):$/;"	kind:member	line:63
+_get_cache_path	../resources/lib/nightcrawler/core/abstract_context.py	/^    def _get_cache_path(self):$/;"	kind:member	line:122
+_get_cached_data	../resources/lib/nightcrawler/storage/function_cache.py	/^    def _get_cached_data(self, partial_func):$/;"	kind:member	line:54
+_get_client	../resources/lib/content/provider.py	/^    def _get_client(self, context):$/;"	kind:member	line:22
+_get_ids	../resources/lib/nightcrawler/storage/storage.py	/^    def _get_ids(self, oldest_first=True):$/;"	kind:member	line:184
+_get_image	../resources/lib/content/client.py	/^        def _get_image(thumbnails):$/;"	kind:function	line:22
+_get_login_credentials	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _get_login_credentials(self):$/;"	kind:member	line:76
+_has_access_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _has_access_token(self):$/;"	kind:member	line:129
+_has_login_credentials	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _has_login_credentials(self):$/;"	kind:member	line:85
+_has_refresh_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _has_refresh_token(self):$/;"	kind:member	line:139
+_internal_favorites_with_item	../resources/lib/nightcrawler/provider.py	/^    def _internal_favorites_with_item(self, context, method, item):$/;"	kind:member	line:202
+_internal_search_with_query	../resources/lib/nightcrawler/provider.py	/^    def _internal_search_with_query(self, context, method, query):$/;"	kind:member	line:257
+_internal_search_without_query	../resources/lib/nightcrawler/provider.py	/^    def _internal_search_without_query(self, context, method, query):$/;"	kind:member	line:277
+_internal_watch_later_with_item	../resources/lib/nightcrawler/provider.py	/^    def _internal_watch_later_with_item(self, context, method, item):$/;"	kind:member	line:229
+_is_access_token_expired	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _is_access_token_expired(self):$/;"	kind:member	line:142
+_is_empty	../resources/lib/nightcrawler/storage/storage.py	/^    def _is_empty(self):$/;"	kind:member	line:175
+_is_new_login_credential	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _is_new_login_credential(self):$/;"	kind:member	line:93
+_make_id	../resources/lib/nightcrawler/storage/search_history.py	/^    def _make_id(self, search_text):$/;"	kind:member	line:30
+_on_category	../resources/lib/content/provider.py	/^    def _on_category(self, context, category_id, next_reference_key):$/;"	kind:member	line:36
+_open	../resources/lib/nightcrawler/storage/storage.py	/^    def _open(self):$/;"	kind:member	line:61
+_optimize_file_size	../resources/lib/nightcrawler/storage/storage.py	/^    def _optimize_file_size(self):$/;"	kind:member	line:112
+_optimize_item_count	../resources/lib/nightcrawler/storage/storage.py	/^    def _optimize_item_count(self):$/;"	kind:member	line:157
+_process_addon_setup	../resources/lib/nightcrawler/provider.py	/^    def _process_addon_setup(self, context):$/;"	kind:member	line:70
+_process_audio_rating	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_audio_rating(info_labels, param):$/;"	kind:function	line:30
+_process_date	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_date(info_labels, param):$/;"	kind:function	line:7
+_process_date_value	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_date_value(info_labels, name, param):$/;"	kind:function	line:73
+_process_int_value	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_int_value(info_labels, name, param):$/;"	kind:function	line:16
+_process_list_value	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_list_value(info_labels, name, param):$/;"	kind:function	line:82
+_process_not_none_value	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^    def _process_not_none_value(_info_labels, name, value):$/;"	kind:function	line:11
+_process_result	../resources/lib/nightcrawler/core/runner.py	/^def _process_result(context, result):$/;"	kind:function	line:7
+_process_string_value	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_string_value(info_labels, name, param):$/;"	kind:function	line:23
+_process_video_dateadded	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_video_dateadded(info_labels, param):$/;"	kind:function	line:45
+_process_video_duration	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_video_duration(context, info_labels, param):$/;"	kind:function	line:52
+_process_video_rating	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def _process_video_rating(info_labels, param):$/;"	kind:function	line:59
+_remove	../resources/lib/nightcrawler/storage/storage.py	/^    def _remove(self, item_id):$/;"	kind:member	line:222
+_request	../resources/lib/content/client.py	/^    def _request(self, url, method='GET', headers=None, post_data=None, params=None, allow_redirects=True):$/;"	kind:member	line:91
+_request	../resources/lib/nightcrawler/http/api.py	/^def _request(method, url,$/;"	kind:function	line:64
+_request	../resources/lib/nightcrawler/http/client.py	/^    def _request(self, url, method='GET', headers=None, post_data=None, params=None, allow_redirects=True):$/;"	kind:member	line:15
+_seconds_difference	../resources/lib/nightcrawler/storage/function_cache.py	/^        def _seconds_difference(_first, _last):$/;"	kind:function	line:73
+_set	../resources/lib/nightcrawler/storage/storage.py	/^    def _set(self, item_id, item):$/;"	kind:member	line:146
+_sort	../resources/lib/nightcrawler/storage/favorite_list.py	/^        def _sort(_item):$/;"	kind:function	line:25
+_sort	../resources/lib/nightcrawler/storage/watch_later_list.py	/^        def _sort(video_item):$/;"	kind:function	line:27
+_sort_video_streams	../resources/lib/nightcrawler/provider.py	/^        def _sort_video_streams(_video_stream):$/;"	kind:function	line:109
+_string_to_type	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^def _string_to_type(value, value_type):$/;"	kind:function	line:10
+_to_int	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^    def _to_int(value):$/;"	kind:function	line:17
+_update_access_data	../resources/lib/nightcrawler/storage/access_manager.py	/^    def _update_access_data(self, access_data):$/;"	kind:member	line:38
+_update_system_info	../resources/lib/nightcrawler/core/kodi/context.py	/^    def _update_system_info(self):$/;"	kind:member	line:118
+abstract_context.py	../resources/lib/nightcrawler/core/abstract_context.py	1;"	kind:file	line:1
+abstract_context_ui.py	../resources/lib/nightcrawler/core/abstract_context_ui.py	1;"	kind:file	line:1
+abstract_player.py	../resources/lib/nightcrawler/core/abstract_player.py	1;"	kind:file	line:1
+abstract_playlist.py	../resources/lib/nightcrawler/core/abstract_playlist.py	1;"	kind:file	line:1
+abstract_progress_dialog.py	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	1;"	kind:file	line:1
+abstract_settings.py	../resources/lib/nightcrawler/core/abstract_settings.py	1;"	kind:file	line:1
+access_manager.py	../resources/lib/nightcrawler/storage/access_manager.py	1;"	kind:file	line:1
+add	../resources/lib/nightcrawler/core/abstract_playlist.py	/^    def add(self, base_item):$/;"	kind:member	line:11
+add	../resources/lib/nightcrawler/core/kodi/playlist.py	/^    def add(self, item):$/;"	kind:member	line:27
+add	../resources/lib/nightcrawler/storage/favorite_list.py	/^    def add(self, item):$/;"	kind:member	line:30
+add	../resources/lib/nightcrawler/storage/watch_later_list.py	/^    def add(self, item):$/;"	kind:member	line:35
+add_item	../resources/lib/nightcrawler/core/abstract_context.py	/^    def add_item(self, item):$/;"	kind:member	line:326
+add_item	../resources/lib/nightcrawler/core/kodi/context.py	/^    def add_item(self, item):$/;"	kind:member	line:324
+add_item	../resources/lib/nightcrawler/core/mock/context.py	/^    def add_item(self, item):$/;"	kind:member	line:106
+add_sort_method	../resources/lib/nightcrawler/core/abstract_context.py	/^    def add_sort_method(self, *sort_methods):$/;"	kind:member	line:292
+add_sort_method	../resources/lib/nightcrawler/core/kodi/context.py	/^    def add_sort_method(self, *sort_methods):$/;"	kind:member	line:243
+add_sort_method	../resources/lib/nightcrawler/core/mock/context.py	/^    def add_sort_method(self, *sort_methods):$/;"	kind:member	line:72
+addon.py	../addon.py	1;"	kind:file	line:1
+api.py	../resources/lib/nightcrawler/http/api.py	1;"	kind:file	line:1
+ask_for_video_quality	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def ask_for_video_quality(self):$/;"	kind:member	line:90
+authenticate	../resources/lib/content/client.py	/^    def authenticate(self):$/;"	kind:member	line:75
+cache_function	../resources/lib/nightcrawler/core/abstract_context.py	/^    def cache_function(self, seconds, func, *args, **keywords):$/;"	kind:member	line:144
+calculate_request_signature	../resources/lib/content/client.py	/^    def calculate_request_signature(self, time_stamp=None):$/;"	kind:member	line:83
+clear	../resources/lib/nightcrawler/core/abstract_playlist.py	/^    def clear(self):$/;"	kind:member	line:8
+clear	../resources/lib/nightcrawler/core/kodi/playlist.py	/^    def clear(self):$/;"	kind:member	line:23
+clear	../resources/lib/nightcrawler/storage/favorite_list.py	/^    def clear(self):$/;"	kind:member	line:12
+clear	../resources/lib/nightcrawler/storage/function_cache.py	/^    def clear(self):$/;"	kind:member	line:21
+clear	../resources/lib/nightcrawler/storage/search_history.py	/^    def clear(self):$/;"	kind:member	line:26
+clear	../resources/lib/nightcrawler/storage/watch_later_list.py	/^    def clear(self):$/;"	kind:member	line:14
+client.py	../resources/lib/content/client.py	1;"	kind:file	line:1
+client.py	../resources/lib/nightcrawler/http/client.py	1;"	kind:file	line:1
+clone	../resources/lib/nightcrawler/core/abstract_context.py	/^    def clone(self, new_path=None, new_params=None):$/;"	kind:member	line:314
+clone	../resources/lib/nightcrawler/core/kodi/context.py	/^    def clone(self, new_path=None, new_params=None):$/;"	kind:member	line:290
+clone	../resources/lib/nightcrawler/core/mock/context.py	/^    def clone(self, new_path=None, new_params=None):$/;"	kind:member	line:78
+close	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def close(self):$/;"	kind:member	line:16
+close	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^    def close(self):$/;"	kind:member	line:19
+close	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^    def close(self):$/;"	kind:member	line:19
+close	../resources/lib/nightcrawler/core/mock/progress_dialog.py	/^    def close(self):$/;"	kind:member	line:10
+context.py	../resources/lib/nightcrawler/core/kodi/context.py	1;"	kind:file	line:1
+context.py	../resources/lib/nightcrawler/core/mock/context.py	1;"	kind:file	line:1
+context_ui.py	../resources/lib/nightcrawler/core/kodi/context_ui.py	1;"	kind:file	line:1
+context_ui.py	../resources/lib/nightcrawler/core/mock/context_ui.py	1;"	kind:file	line:1
+create_from_item	../resources/lib/nightcrawler/core/kodi/info_labels.py	/^def create_from_item(context, base_item):$/;"	kind:function	line:89
+create_item_hash	../resources/lib/nightcrawler/items.py	/^def create_item_hash(item):$/;"	kind:function	line:8
+create_kodi_item	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^def create_kodi_item(context, item):$/;"	kind:function	line:120
+create_next_page_item	../resources/lib/nightcrawler/items.py	/^def create_next_page_item(context, thumbnail=None, fanart=None):$/;"	kind:function	line:14
+create_progress_dialog	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def create_progress_dialog(self, heading, text=None, background=False):$/;"	kind:member	line:8
+create_progress_dialog	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def create_progress_dialog(self, heading, text=None, background=False):$/;"	kind:member	line:22
+create_resource_path	../resources/lib/nightcrawler/core/abstract_context.py	/^    def create_resource_path(self, relative_path):$/;"	kind:member	line:263
+create_search_item	../resources/lib/nightcrawler/items.py	/^def create_search_item(context, thumbnail=None, fanart=None):$/;"	kind:function	line:36
+create_uri	../resources/lib/nightcrawler/core/abstract_context.py	/^    def create_uri(self, path=u'\/', params=None):$/;"	kind:member	line:212
+create_watch_later_item	../resources/lib/nightcrawler/items.py	/^def create_watch_later_item(context, thumbnail=None, fanart=None):$/;"	kind:function	line:56
+debug.py	../resources/lib/nightcrawler/debug.py	1;"	kind:file	line:1
+debug_here	../resources/lib/nightcrawler/debug.py	/^def debug_here(host='localhost'):$/;"	kind:function	line:6
+decode	../resources/lib/nightcrawler/utils/nightcrawler_xml.py	/^def decode(xml_text):$/;"	kind:function	line:7
+delete	../resources/lib/nightcrawler/http/api.py	/^def delete(url, **kwargs):$/;"	kind:function	line:216
+disable	../resources/lib/nightcrawler/storage/function_cache.py	/^    def disable(self):$/;"	kind:member	line:33
+disable_clear_cache	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def disable_clear_cache(self):$/;"	kind:member	line:111
+do_access_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def do_access_token(self, access_token_method):$/;"	kind:member	line:18
+do_login	../resources/lib/nightcrawler/storage/access_manager.py	/^    def do_login(self, login_method):$/;"	kind:member	line:26
+do_login_and_refresh_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def do_login_and_refresh_token(self, login_method, refresh_token_method):$/;"	kind:member	line:14
+do_refresh_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def do_refresh_token(self, refresh_token_method):$/;"	kind:member	line:52
+enabled	../resources/lib/nightcrawler/storage/function_cache.py	/^    def enabled(self):$/;"	kind:member	line:25
+end_of_content	../resources/lib/nightcrawler/core/abstract_context.py	/^    def end_of_content(self, succeeded=True):$/;"	kind:member	line:329
+end_of_content	../resources/lib/nightcrawler/core/kodi/context.py	/^    def end_of_content(self, succeeded=True):$/;"	kind:member	line:328
+end_of_content	../resources/lib/nightcrawler/core/mock/context.py	/^    def end_of_content(self, succeeded=True):$/;"	kind:member	line:110
+exception.py	../resources/lib/nightcrawler/exception.py	1;"	kind:file	line:1
+execute	../resources/lib/nightcrawler/core/abstract_context.py	/^    def execute(self, command):$/;"	kind:member	line:317
+execute	../resources/lib/nightcrawler/core/kodi/context.py	/^    def execute(self, command):$/;"	kind:member	line:312
+execute	../resources/lib/nightcrawler/core/mock/context.py	/^    def execute(self, command):$/;"	kind:member	line:98
+favorite_list.py	../resources/lib/nightcrawler/storage/favorite_list.py	1;"	kind:file	line:1
+format_date_short	../resources/lib/nightcrawler/core/abstract_context.py	/^    def format_date_short(self, date_obj):$/;"	kind:member	line:113
+format_date_short	../resources/lib/nightcrawler/core/kodi/context.py	/^    def format_date_short(self, date_obj):$/;"	kind:member	line:96
+format_time	../resources/lib/nightcrawler/core/abstract_context.py	/^    def format_time(self, time_obj):$/;"	kind:member	line:116
+format_time	../resources/lib/nightcrawler/core/kodi/context.py	/^    def format_time(self, time_obj):$/;"	kind:member	line:105
+from_uri	../resources/lib/nightcrawler/utils/nightcrawler_path.py	/^def from_uri(uri):$/;"	kind:function	line:13
+function_cache.py	../resources/lib/nightcrawler/storage/function_cache.py	1;"	kind:file	line:1
+get	../resources/lib/nightcrawler/http/api.py	/^def get(url, **kwargs):$/;"	kind:function	line:198
+get	../resources/lib/nightcrawler/storage/function_cache.py	/^    def get(self, seconds, func, *args, **keywords):$/;"	kind:member	line:72
+get_access_manager	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_access_manager(self):$/;"	kind:member	line:168
+get_access_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def get_access_token(self):$/;"	kind:member	line:122
+get_audio_player	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_audio_player(self):$/;"	kind:member	line:183
+get_audio_player	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_audio_player(self):$/;"	kind:member	line:188
+get_audio_playlist	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_audio_playlist(self):$/;"	kind:member	line:177
+get_audio_playlist	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_audio_playlist(self):$/;"	kind:member	line:176
+get_available	../resources/lib/content/client.py	/^    def get_available(self):$/;"	kind:member	line:63
+get_bool	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_bool(self, setting_id, default_value):$/;"	kind:member	line:70
+get_cached_only	../resources/lib/nightcrawler/storage/function_cache.py	/^    def get_cached_only(self, func, *args, **keywords):$/;"	kind:member	line:58
+get_data_path	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_data_path(self):$/;"	kind:member	line:247
+get_data_path	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_data_path(self):$/;"	kind:member	line:203
+get_data_path	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_data_path(self):$/;"	kind:member	line:56
+get_fanart	../resources/lib/content/provider.py	/^    def get_fanart(self, context):$/;"	kind:member	line:90
+get_fanart	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_fanart(self):$/;"	kind:member	line:260
+get_fanart	../resources/lib/nightcrawler/provider.py	/^    def get_fanart(self, context):$/;"	kind:member	line:182
+get_favorite_list	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_favorite_list(self):$/;"	kind:member	line:156
+get_function_cache	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_function_cache(self):$/;"	kind:member	line:128
+get_handle	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_handle(self):$/;"	kind:member	line:280
+get_handle	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_handle(self):$/;"	kind:member	line:200
+get_handle	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_handle(self):$/;"	kind:member	line:53
+get_icon	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_icon(self):$/;"	kind:member	line:257
+get_id	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_id(self):$/;"	kind:member	line:277
+get_int	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_int(self, setting_id, default_value, converter=None):$/;"	kind:member	line:46
+get_items_per_page	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_items_per_page(self):$/;"	kind:member	line:81
+get_language	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_language(self):$/;"	kind:member	line:119
+get_language	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_language(self):$/;"	kind:member	line:114
+get_language	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_language(self):$/;"	kind:member	line:38
+get_max_item_count	../resources/lib/nightcrawler/storage/storage.py	/^    def get_max_item_count(self):$/;"	kind:member	line:46
+get_message	../resources/lib/nightcrawler/exception.py	/^    def get_message(self):$/;"	kind:member	line:10
+get_name	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_name(self):$/;"	kind:member	line:271
+get_native_path	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_native_path(self):$/;"	kind:member	line:254
+get_native_path	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_native_path(self):$/;"	kind:member	line:206
+get_native_path	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_native_path(self):$/;"	kind:member	line:59
+get_param	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_param(self, name, default=None):$/;"	kind:member	line:244
+get_params	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_params(self):$/;"	kind:member	line:241
+get_path	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_path(self):$/;"	kind:member	line:238
+get_path_match	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_path_match(self):$/;"	kind:member	line:106
+get_position	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def get_position(self):$/;"	kind:member	line:13
+get_posts	../resources/lib/content/client.py	/^    def get_posts(self, list_key, next_reference_key=''):$/;"	kind:member	line:21
+get_python_version	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_python_version(self):$/;"	kind:member	line:195
+get_refresh_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def get_refresh_token(self):$/;"	kind:member	line:132
+get_search_history	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_search_history(self):$/;"	kind:member	line:147
+get_search_history_size	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_search_history_size(self):$/;"	kind:member	line:96
+get_settings	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_settings(self):$/;"	kind:member	line:283
+get_settings	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_settings(self):$/;"	kind:member	line:209
+get_settings	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_settings(self):$/;"	kind:member	line:62
+get_skin_id	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def get_skin_id(self):$/;"	kind:member	line:11
+get_skin_id	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def get_skin_id(self):$/;"	kind:member	line:29
+get_skin_id	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def get_skin_id(self):$/;"	kind:member	line:13
+get_string	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_string(self, setting_id, default_value=None):$/;"	kind:member	line:40
+get_string	../resources/lib/nightcrawler/core/kodi/settings.py	/^    def get_string(self, setting_id, default_value=None):$/;"	kind:member	line:53
+get_string	../resources/lib/nightcrawler/core/mock/settings.py	/^    def get_string(self, settings_id, default_value=None):$/;"	kind:member	line:11
+get_system_name	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_system_name(self):$/;"	kind:member	line:192
+get_system_name	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_system_name(self):$/;"	kind:member	line:164
+get_system_name	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_system_name(self):$/;"	kind:member	line:44
+get_system_version	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_system_version(self):$/;"	kind:member	line:189
+get_system_version	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_system_version(self):$/;"	kind:member	line:158
+get_system_version	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_system_version(self):$/;"	kind:member	line:41
+get_total	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def get_total(self):$/;"	kind:member	line:10
+get_ui	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_ui(self):$/;"	kind:member	line:186
+get_ui	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_ui(self):$/;"	kind:member	line:194
+get_ui	../resources/lib/nightcrawler/core/mock/context.py	/^    def get_ui(self):$/;"	kind:member	line:47
+get_uri	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_uri(self):$/;"	kind:member	line:268
+get_version	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_version(self):$/;"	kind:member	line:274
+get_video_player	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_video_player(self):$/;"	kind:member	line:180
+get_video_player	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_video_player(self):$/;"	kind:member	line:182
+get_video_playlist	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_video_playlist(self):$/;"	kind:member	line:174
+get_video_playlist	../resources/lib/nightcrawler/core/kodi/context.py	/^    def get_video_playlist(self):$/;"	kind:member	line:170
+get_video_quality	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def get_video_quality(self, video_quality_index=None):$/;"	kind:member	line:84
+get_watch_later_list	../resources/lib/nightcrawler/core/abstract_context.py	/^    def get_watch_later_list(self):$/;"	kind:member	line:162
+handle_exception	../resources/lib/nightcrawler/provider.py	/^    def handle_exception(self, context, exception_to_handle):$/;"	kind:member	line:324
+head	../resources/lib/nightcrawler/http/api.py	/^def head(url, **kwargs):$/;"	kind:function	line:220
+http_error_300	../resources/lib/nightcrawler/http/api.py	/^    http_error_300 = http_error_302$/;"	kind:variable	line:35
+http_error_301	../resources/lib/nightcrawler/http/api.py	/^    http_error_301 = http_error_302$/;"	kind:variable	line:36
+http_error_302	../resources/lib/nightcrawler/http/api.py	/^    def http_error_302(self, req, fp, code, msg, headers):$/;"	kind:member	line:29
+http_error_303	../resources/lib/nightcrawler/http/api.py	/^    http_error_303 = http_error_302$/;"	kind:variable	line:37
+http_error_307	../resources/lib/nightcrawler/http/api.py	/^    http_error_307 = http_error_302$/;"	kind:variable	line:38
+http_error_default	../resources/lib/nightcrawler/http/api.py	/^    def http_error_default(self, req, fp, code, msg, hdrs):$/;"	kind:member	line:18
+info_labels.py	../resources/lib/nightcrawler/core/kodi/info_labels.py	1;"	kind:file	line:1
+is_aborted	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def is_aborted(self):$/;"	kind:member	line:26
+is_aborted	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^    def is_aborted(self):$/;"	kind:member	line:38
+is_aborted	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^    def is_aborted(self):$/;"	kind:member	line:38
+is_aborted	../resources/lib/nightcrawler/core/mock/progress_dialog.py	/^    def is_aborted(self):$/;"	kind:member	line:20
+is_clear_cache_enabled	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def is_clear_cache_enabled(self):$/;"	kind:member	line:108
+is_empty	../resources/lib/nightcrawler/storage/search_history.py	/^    def is_empty(self):$/;"	kind:member	line:12
+is_override_view_enabled	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def is_override_view_enabled(self):$/;"	kind:member	line:102
+is_setup_wizard_enabled	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def is_setup_wizard_enabled(self):$/;"	kind:member	line:99
+is_support_alternative_player_enabled	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def is_support_alternative_player_enabled(self):$/;"	kind:member	line:105
+items.py	../resources/lib/nightcrawler/items.py	1;"	kind:file	line:1
+json	../resources/lib/nightcrawler/http/api.py	/^    def json(self):$/;"	kind:member	line:53
+kodi_items.py	../resources/lib/nightcrawler/core/kodi/kodi_items.py	1;"	kind:file	line:1
+list	../resources/lib/nightcrawler/storage/favorite_list.py	/^    def list(self):$/;"	kind:member	line:16
+list	../resources/lib/nightcrawler/storage/search_history.py	/^    def list(self):$/;"	kind:member	line:15
+list	../resources/lib/nightcrawler/storage/watch_later_list.py	/^    def list(self):$/;"	kind:member	line:18
+localize	../resources/lib/nightcrawler/core/abstract_context.py	/^    def localize(self, text_id, default=u''):$/;"	kind:member	line:286
+localize	../resources/lib/nightcrawler/core/kodi/context.py	/^    def localize(self, text_id, default=u''):$/;"	kind:member	line:216
+localize	../resources/lib/nightcrawler/core/mock/context.py	/^    def localize(self, text_id, default=u''):$/;"	kind:member	line:65
+log	../resources/lib/nightcrawler/core/abstract_context.py	/^    def log(self, text, log_level):$/;"	kind:member	line:295
+log	../resources/lib/nightcrawler/core/kodi/context.py	/^    def log(self, text, log_level):$/;"	kind:member	line:87
+log	../resources/lib/nightcrawler/core/mock/context.py	/^    def log(self, text, log_level):$/;"	kind:member	line:25
+log_debug	../resources/lib/nightcrawler/core/abstract_context.py	/^    def log_debug(self, text):$/;"	kind:member	line:298
+log_error	../resources/lib/nightcrawler/core/abstract_context.py	/^    def log_error(self, text):$/;"	kind:member	line:310
+log_info	../resources/lib/nightcrawler/core/abstract_context.py	/^    def log_info(self, text):$/;"	kind:member	line:302
+log_warning	../resources/lib/nightcrawler/core/abstract_context.py	/^    def log_warning(self, text):$/;"	kind:member	line:306
+navigate	../resources/lib/nightcrawler/provider.py	/^    def navigate(self, context):$/;"	kind:member	line:167
+nightcrawler_datetime.py	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	1;"	kind:file	line:1
+nightcrawler_decorators.py	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	1;"	kind:file	line:1
+nightcrawler_html.py	../resources/lib/nightcrawler/utils/nightcrawler_html.py	1;"	kind:file	line:1
+nightcrawler_path.py	../resources/lib/nightcrawler/utils/nightcrawler_path.py	1;"	kind:file	line:1
+nightcrawler_strings.py	../resources/lib/nightcrawler/utils/nightcrawler_strings.py	1;"	kind:file	line:1
+nightcrawler_xml.py	../resources/lib/nightcrawler/utils/nightcrawler_xml.py	1;"	kind:file	line:1
+normalize	../resources/lib/nightcrawler/utils/nightcrawler_path.py	/^def normalize(path):$/;"	kind:function	line:9
+on_favorites_list	../resources/lib/nightcrawler/provider.py	/^    def on_favorites_list(self, context):$/;"	kind:member	line:215
+on_keyboard_input	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def on_keyboard_input(self, title, default='', hidden=False):$/;"	kind:member	line:14
+on_keyboard_input	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def on_keyboard_input(self, title, default='', hidden=False):$/;"	kind:member	line:32
+on_keyboard_input	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def on_keyboard_input(self, title, default='', hidden=False):$/;"	kind:member	line:16
+on_numeric_input	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def on_numeric_input(self, title, default=None):$/;"	kind:member	line:17
+on_numeric_input	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def on_numeric_input(self, title, default=None):$/;"	kind:member	line:54
+on_ok	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def on_ok(self, title, text):$/;"	kind:member	line:23
+on_ok	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def on_ok(self, title, text):$/;"	kind:member	line:70
+on_ok	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def on_ok(self, title, text):$/;"	kind:member	line:35
+on_root	../resources/lib/content/provider.py	/^    def on_root(self, context):$/;"	kind:member	line:72
+on_search	../resources/lib/nightcrawler/provider.py	/^    def on_search(self, context, search_text):$/;"	kind:member	line:190
+on_select	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def on_select(self, title, items, default=-1):$/;"	kind:member	line:26
+on_select	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def on_select(self, title, items, default=-1):$/;"	kind:member	line:74
+on_setup	../resources/lib/content/provider.py	/^    def on_setup(self, context, mode):$/;"	kind:member	line:17
+on_setup	../resources/lib/nightcrawler/provider.py	/^    def on_setup(self, context, mode):$/;"	kind:member	line:90
+on_watch_later	../resources/lib/nightcrawler/provider.py	/^    def on_watch_later(self, context):$/;"	kind:member	line:242
+on_yes_no_input	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def on_yes_no_input(self, title, text):$/;"	kind:member	line:20
+on_yes_no_input	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def on_yes_no_input(self, title, text):$/;"	kind:member	line:66
+open_settings	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def open_settings(self):$/;"	kind:member	line:29
+open_settings	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def open_settings(self):$/;"	kind:member	line:113
+open_settings	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def open_settings(self):$/;"	kind:member	line:42
+options	../resources/lib/nightcrawler/http/api.py	/^def options(url, **kwargs):$/;"	kind:function	line:212
+parse	../resources/lib/nightcrawler/utils/nightcrawler_datetime.py	/^def parse(datetime_string):$/;"	kind:function	line:16
+pause	../resources/lib/nightcrawler/core/abstract_player.py	/^    def pause(self):$/;"	kind:member	line:14
+pause	../resources/lib/nightcrawler/core/kodi/player.py	/^    def pause(self):$/;"	kind:member	line:49
+play	../resources/lib/nightcrawler/core/abstract_player.py	/^    def play(self, playlist_index=-1):$/;"	kind:member	line:8
+play	../resources/lib/nightcrawler/core/kodi/player.py	/^    def play(self, playlist_index=-1):$/;"	kind:member	line:20
+player.py	../resources/lib/nightcrawler/core/kodi/player.py	1;"	kind:file	line:1
+playlist.py	../resources/lib/nightcrawler/core/kodi/playlist.py	1;"	kind:file	line:1
+post	../resources/lib/nightcrawler/http/api.py	/^def post(url, data=None, json=None, **kwargs):$/;"	kind:function	line:203
+process_item	../resources/lib/nightcrawler/core/kodi/kodi_items.py	/^def process_item(context, item, resolve=False):$/;"	kind:function	line:157
+progress_dialog.py	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	1;"	kind:file	line:1
+progress_dialog.py	../resources/lib/nightcrawler/core/mock/progress_dialog.py	1;"	kind:file	line:1
+progress_dialog_bg.py	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	1;"	kind:file	line:1
+provider.py	../resources/lib/content/provider.py	1;"	kind:file	line:1
+provider.py	../resources/lib/nightcrawler/provider.py	1;"	kind:file	line:1
+put	../resources/lib/nightcrawler/http/api.py	/^def put(url, data=None, json=None, **kwargs):$/;"	kind:function	line:208
+read	../resources/lib/nightcrawler/http/api.py	/^    def read(self):$/;"	kind:member	line:50
+refresh_container	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def refresh_container(self):$/;"	kind:member	line:35
+refresh_container	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def refresh_container(self):$/;"	kind:member	line:117
+refresh_container	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def refresh_container(self):$/;"	kind:member	line:46
+register_context_value	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^class register_context_value(object):$/;"	kind:class	line:86
+register_path	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^class register_path(object):$/;"	kind:class	line:20
+register_path_value	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^class register_path_value(object):$/;"	kind:class	line:53
+remove	../resources/lib/nightcrawler/storage/favorite_list.py	/^    def remove(self, item):$/;"	kind:member	line:35
+remove	../resources/lib/nightcrawler/storage/search_history.py	/^    def remove(self, search_text):$/;"	kind:member	line:40
+remove	../resources/lib/nightcrawler/storage/watch_later_list.py	/^    def remove(self, item):$/;"	kind:member	line:41
+remove_access_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def remove_access_token(self):$/;"	kind:member	line:116
+remove_file	../resources/lib/nightcrawler/storage/storage.py	/^    def remove_file(self):$/;"	kind:member	line:33
+remove_login_credentials	../resources/lib/nightcrawler/storage/access_manager.py	/^    def remove_login_credentials(self):$/;"	kind:member	line:110
+rename	../resources/lib/nightcrawler/storage/search_history.py	/^    def rename(self, old_search_text, new_search_text):$/;"	kind:member	line:35
+resolve_item	../resources/lib/nightcrawler/core/abstract_context.py	/^    def resolve_item(self, item):$/;"	kind:member	line:323
+resolve_item	../resources/lib/nightcrawler/core/kodi/context.py	/^    def resolve_item(self, item):$/;"	kind:member	line:320
+run	../resources/lib/nightcrawler/core/runner.py	/^def run(provider, context=None):$/;"	kind:function	line:30
+runner.py	../resources/lib/nightcrawler/core/runner.py	1;"	kind:file	line:1
+search_history.py	../resources/lib/nightcrawler/storage/search_history.py	1;"	kind:file	line:1
+select_video_stream	../resources/lib/nightcrawler/provider.py	/^    def select_video_stream(self, context, video_streams, video_quality_index=None, video_item=None):$/;"	kind:member	line:96
+setUp	../resources/lib/content/tests/test_client.py	/^    def setUp(self):$/;"	kind:member	line:9
+setUp	../resources/lib/content/tests/test_provider.py	/^    def setUp(self):$/;"	kind:member	line:10
+set_bool	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def set_bool(self, setting_id, value):$/;"	kind:member	line:64
+set_content_type	../resources/lib/nightcrawler/core/abstract_context.py	/^    def set_content_type(self, content_type):$/;"	kind:member	line:289
+set_content_type	../resources/lib/nightcrawler/core/kodi/context.py	/^    def set_content_type(self, content_type):$/;"	kind:member	line:236
+set_content_type	../resources/lib/nightcrawler/core/mock/context.py	/^    def set_content_type(self, content_type):$/;"	kind:member	line:68
+set_int	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def set_int(self, setting_id, value):$/;"	kind:member	line:60
+set_localization	../resources/lib/nightcrawler/core/mock/context.py	/^    def set_localization(self, text_id, value):$/;"	kind:member	line:34
+set_max_file_size_kb	../resources/lib/nightcrawler/storage/storage.py	/^    def set_max_file_size_kb(self, max_file_size_kb):$/;"	kind:member	line:53
+set_max_item_count	../resources/lib/nightcrawler/storage/storage.py	/^    def set_max_item_count(self, max_item_count):$/;"	kind:member	line:49
+set_path_match	../resources/lib/nightcrawler/core/abstract_context.py	/^    def set_path_match(self, path_match):$/;"	kind:member	line:98
+set_string	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def set_string(self, setting_id, value):$/;"	kind:member	line:43
+set_string	../resources/lib/nightcrawler/core/kodi/settings.py	/^    def set_string(self, setting_id, value):$/;"	kind:member	line:56
+set_string	../resources/lib/nightcrawler/core/mock/settings.py	/^    def set_string(self, settings_id, value):$/;"	kind:member	line:14
+set_total	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def set_total(self, total):$/;"	kind:member	line:19
+settings.py	../resources/lib/nightcrawler/core/kodi/settings.py	1;"	kind:file	line:1
+settings.py	../resources/lib/nightcrawler/core/mock/settings.py	1;"	kind:file	line:1
+setup	../resources/lib/nightcrawler/core/view_manager.py	/^    def setup(self):$/;"	kind:member	line:10
+show_fanart	../resources/lib/nightcrawler/core/abstract_settings.py	/^    def show_fanart(self):$/;"	kind:member	line:93
+show_notification	../resources/lib/nightcrawler/core/abstract_context_ui.py	/^    def show_notification(self, message, header='', image_uri='', time_milliseconds=5000):$/;"	kind:member	line:32
+show_notification	../resources/lib/nightcrawler/core/kodi/context_ui.py	/^    def show_notification(self, message, header='', image_uri='', time_milliseconds=5000):$/;"	kind:member	line:92
+show_notification	../resources/lib/nightcrawler/core/mock/context_ui.py	/^    def show_notification(self, message, header='', image_uri='', time_milliseconds=5000):$/;"	kind:member	line:26
+shuffle	../resources/lib/nightcrawler/core/abstract_playlist.py	/^    def shuffle(self):$/;"	kind:member	line:14
+shuffle	../resources/lib/nightcrawler/core/kodi/playlist.py	/^    def shuffle(self):$/;"	kind:member	line:32
+sleep	../resources/lib/nightcrawler/core/abstract_context.py	/^    def sleep(self, milli_seconds):$/;"	kind:member	line:320
+sleep	../resources/lib/nightcrawler/core/kodi/context.py	/^    def sleep(self, milli_seconds):$/;"	kind:member	line:316
+sleep	../resources/lib/nightcrawler/core/mock/context.py	/^    def sleep(self, milli_seconds):$/;"	kind:member	line:102
+stop	../resources/lib/nightcrawler/core/abstract_player.py	/^    def stop(self):$/;"	kind:member	line:11
+stop	../resources/lib/nightcrawler/core/kodi/player.py	/^    def stop(self):$/;"	kind:member	line:45
+storage.py	../resources/lib/nightcrawler/storage/storage.py	1;"	kind:file	line:1
+strip_tags	../resources/lib/nightcrawler/utils/nightcrawler_html.py	/^def strip_tags(html):$/;"	kind:function	line:6
+sync	../resources/lib/nightcrawler/storage/storage.py	/^    def sync(self):$/;"	kind:member	line:140
+tear_down	../resources/lib/nightcrawler/provider.py	/^    def tear_down(self, context):$/;"	kind:member	line:333
+test_authenticate	../resources/lib/content/tests/test_client.py	/^    def test_authenticate(self):$/;"	kind:member	line:33
+test_calculate_request_signature	../resources/lib/content/tests/test_client.py	/^    def test_calculate_request_signature(self):$/;"	kind:member	line:39
+test_client.py	../resources/lib/content/tests/test_client.py	1;"	kind:file	line:1
+test_get_available	../resources/lib/content/tests/test_client.py	/^    def test_get_available(self):$/;"	kind:member	line:24
+test_get_posts	../resources/lib/content/tests/test_client.py	/^    def test_get_posts(self):$/;"	kind:member	line:15
+test_on_categories	../resources/lib/content/tests/test_provider.py	/^    def test_on_categories(self):$/;"	kind:member	line:21
+test_on_category	../resources/lib/content/tests/test_provider.py	/^    def test_on_category(self):$/;"	kind:member	line:13
+test_on_root	../resources/lib/content/tests/test_provider.py	/^    def test_on_root(self):$/;"	kind:member	line:32
+test_provider.py	../resources/lib/content/tests/test_provider.py	1;"	kind:file	line:1
+to_unicode	../resources/lib/nightcrawler/utils/nightcrawler_strings.py	/^def to_unicode(text):$/;"	kind:function	line:17
+to_uri	../resources/lib/nightcrawler/utils/nightcrawler_path.py	/^def to_uri(path):$/;"	kind:function	line:25
+to_utf8	../resources/lib/nightcrawler/utils/nightcrawler_strings.py	/^def to_utf8(text):$/;"	kind:function	line:8
+unshuffle	../resources/lib/nightcrawler/core/abstract_playlist.py	/^    def unshuffle(self):$/;"	kind:member	line:17
+unshuffle	../resources/lib/nightcrawler/core/kodi/playlist.py	/^    def unshuffle(self):$/;"	kind:member	line:36
+update	../resources/lib/nightcrawler/core/abstract_progress_dialog.py	/^    def update(self, steps=1, text=None):$/;"	kind:member	line:23
+update	../resources/lib/nightcrawler/core/kodi/progress_dialog.py	/^    def update(self, steps=1, text=None):$/;"	kind:member	line:26
+update	../resources/lib/nightcrawler/core/kodi/progress_dialog_bg.py	/^    def update(self, steps=1, text=None):$/;"	kind:member	line:26
+update	../resources/lib/nightcrawler/core/mock/progress_dialog.py	/^    def update(self, steps=1, text=None):$/;"	kind:member	line:14
+update	../resources/lib/nightcrawler/storage/search_history.py	/^    def update(self, search_text):$/;"	kind:member	line:44
+update_access_token	../resources/lib/nightcrawler/storage/access_manager.py	/^    def update_access_token(self, access_token, unix_timestamp=None, refresh_token=None):$/;"	kind:member	line:162
+view_manager.py	../resources/lib/nightcrawler/core/view_manager.py	1;"	kind:file	line:1
+watch_later_list.py	../resources/lib/nightcrawler/storage/watch_later_list.py	1;"	kind:file	line:1
+wrapper	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^        def wrapper(*args, **kwargs):$/;"	kind:function	line:107
+wrapper	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^        def wrapper(*args, **kwargs):$/;"	kind:function	line:37
+wrapper	../resources/lib/nightcrawler/core/nightcrawler_decorators.py	/^        def wrapper(*args, **kwargs):$/;"	kind:function	line:69
